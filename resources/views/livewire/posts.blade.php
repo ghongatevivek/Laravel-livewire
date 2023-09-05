@@ -1,4 +1,4 @@
-<div>
+<div class="container">
   
     @if (session()->has('message'))
         <div class="alert alert-success">

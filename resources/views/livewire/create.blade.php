@@ -9,5 +9,5 @@
         <textarea class="form-control" id="description" wire:model="description" placeholder="Enter Description"></textarea>
         @error('description') <span class="text-danger">{{ $message }}</span>@enderror
     </div>
-    <button wire:click.prevent="store()" class="btn btn-primary float-right">Save</button>
+    <button wire:click.prevent="store()" class="btn btn-primary float-right mt-3">Save</button>
 </form>

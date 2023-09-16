@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->tinyInteger('status',1)->default(1);
+            $table->tinyInteger('status')->default(1);
             $table->text('description')->nullable();
             $table->timestamps();
         });
